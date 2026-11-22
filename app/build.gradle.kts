@@ -30,7 +30,7 @@ android {
   ndkVersion = "28.2.13676358"
 
   defaultConfig {
-    applicationId = "echo.music.iad1tya"
+    applicationId = "com.cisco.wx2.android"
     minSdk = 26
     targetSdk = 36
     versionCode = 169
@@ -159,7 +159,7 @@ android {
       buildConfigField("String", "ARCHITECTURE", "\"release\"")
     }
     debug {
-      applicationIdSuffix = ".debug"
+      applicationIdSuffix = ""
       isDebuggable = true
       signingConfig = signingConfigs.getByName("debug")
       buildConfigField("String", "ARCHITECTURE", "\"debug\"")
